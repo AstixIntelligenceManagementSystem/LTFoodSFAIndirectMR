@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/ll_row"
+		android:layout_marginTop="3dp"
+
+		>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+
+		>
+
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="2"
+		android:text="XYZ"
+		android:id="@+id/txt_bussiness_id"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textSize="11sp"
+		android:textColor="#ef1616"
+		android:padding="3dp"
+		android:background="#F5F5F5"
+		android:layout_marginTop="1dp"
+
+		/>
+<!--
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+
+		android:layout_weight="1"
+		android:text="Category Self"
+		android:id="@+id/txtCatSelf"
+		android:gravity="center"
+		android:textStyle=""
+		android:textColor="#000000"
+		android:background="@drawable/table_cell_header_bg_light"
+
+		android:textSize="11sp"
+		android:padding="3dp"/>
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+
+		android:layout_weight="1.03"
+		android:text="Floor Stck"
+		android:id="@+id/txtFloorStack"
+		android:gravity="center"
+		android:textStyle=""
+		android:textColor="#000000"
+		android:background="@drawable/table_cell_header_bg_light"
+
+		android:textSize="11sp"
+		android:padding="3dp"/>
+
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+
+		android:layout_weight="1"
+		android:text="Additional Display"
+		android:id="@+id/txtAddDisplay"
+		android:gravity="center"
+		android:textStyle=""
+		android:textSize="11sp"
+		android:textColor="#000000"
+		android:background="@drawable/table_cell_header_bg_light"
+
+		android:padding="3dp"/>-->
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="3"
+		android:weightSum="3"
+		android:id="@+id/ll_text_horizontal"
+		>
+
+	</LinearLayout>
+</LinearLayout>
+<View
+	android:layout_width="match_parent"
+	android:layout_height="2dp"
+	android:background="@color/white"
+	/>
+</LinearLayout>

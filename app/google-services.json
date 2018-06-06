@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777752703262",
+    "firebase_url": "https://ltfoodsfaindirectmr.firebaseio.com",
+    "project_id": "ltfoodsfaindirectmr",
+    "storage_bucket": "ltfoodsfaindirectmr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777752703262:android:bd78c8afc6b5e5c7",
+        "android_client_info": {
+          "package_name": "project.astix.com.ltfoodsfaindirectMR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777752703262-d2a9fjpdvmo5uq0q1hgu0rrec2tckooq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9f6kZNMw5OqRMLmbfWBdVjwn_yiqqYY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

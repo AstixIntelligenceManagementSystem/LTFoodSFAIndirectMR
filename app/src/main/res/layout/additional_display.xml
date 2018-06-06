@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_addition_display"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/shadow_with_5dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="16dp"
+            android:text="Display Type"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/txt_displayType"
+            android:textColor="@color/black"
+            android:orientation="horizontal"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="16dp"
+            android:text="Display Location"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/txt_displayLoc"
+            android:orientation="horizontal"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:paddingLeft="16dp"
+        android:text="Display Available"/>
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/rg_displayAvlbl"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:id="@+id/rb_displayAvlblYes"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/rb_displayAvlblNo"/>
+
+    </RadioGroup>
+
+   <!-- <Spinner
+        android:id="@+id/spnr_dsplayType"
+        android:layout_width="0dp"
+        android:spinnerMode="dialog"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_boundary"
+        android:layout_weight="1"></Spinner>-->
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="16dp"
+            android:text="Display In Place"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/rg_displayInPlc"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/rb_displayInPlcYes"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/rb_displayInPlcNo"/>
+
+        </RadioGroup>
+
+        <!--<Spinner
+            android:id="@+id/spnr_location"
+            android:layout_width="0dp"
+            android:spinnerMode="dialog"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_boundary"
+            android:layout_weight="1"></Spinner>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="16dp"
+            android:text="Other LtFoods Products Available"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/rg_otherPrdctAvlbl"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/rb_otherPrdctAvlblYes"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/rb_otherPrdctAvlblNo"/>
+
+        </RadioGroup>
+
+
+        <!--<TextView
+            android:id="@+id/spnr_ctgryAvlbl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:background="@drawable/search_boundary"
+            android:text="Category Available"></TextView>-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_templateToShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/card_background_gray"
+        android:drawableRight="@drawable/camera_icon"
+        android:paddingBottom="2dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="15dp"
+        android:paddingTop="2dp" />
+
+    <project.astix.com.ltfoodsfaindirectMR.ExpandableHeightGridView
+        android:id="@+id/recyclerAfterMerchandising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:horizontalSpacing="10dp"
+        android:isScrollContainer="false"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+
+
+        />
+
+
+</LinearLayout>

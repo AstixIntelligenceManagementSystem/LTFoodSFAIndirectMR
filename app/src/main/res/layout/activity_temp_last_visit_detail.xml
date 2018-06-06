@@ -1,0 +1,358 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_header"
+        android:id="@+id/ll_header"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:shadowRadius="7"
+            android:shadowDy="4"
+            android:shadowDx="4"
+            android:textStyle="bold"
+            android:shadowColor="#80FFFFFF"
+            android:textSize="18sp"
+            android:text="Last Visit Details"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_back"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll_header"
+        android:background="@drawable/shadow_with_5dp"
+        android:id="@+id/ll_outletType">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Outlet Name : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_outletName"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Outlet Chain : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_outletChain"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textColor="#0e2f7b"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Outlet Type : "
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="#0e2f7b"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_outletType"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text=""
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="#0e2f7b"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll_outletType"
+        android:background="@drawable/shadow_with_5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ll_lastVisitDetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Last Visit Date : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_visitDate_Value"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="First Visit"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll_lastVisitDetails"
+        android:background="@drawable/shadow_with_5dp"
+        android:layout_marginTop="10dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Category Paid Display : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+         <RadioGroup
+             android:id="@+id/rg_CP"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:orientation="horizontal"
+             android:layout_height="wrap_content">
+             <RadioButton
+                 android:id="@+id/rb_CPDYes"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Yes"/>
+             <RadioButton
+                 android:id="@+id/rb_CPDNo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="No"/>
+         </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Non Category Paid Display : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/rg_NCP"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_NCPDYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+                <RadioButton
+                    android:id="@+id/rb_NCPDNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Branding Element : "
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:textColor="#0e2f7b"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/rg_BE"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_BEYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+                <RadioButton
+                    android:id="@+id/rb_BENo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sixth"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/prevP2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:text="@string/lastvisitdetails_back" />
+
+
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:text="Cancel" />
+        <Button
+            android:id="@+id/nxtP4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/lastvisitdetails_next"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
